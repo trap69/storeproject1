@@ -1,8 +1,8 @@
-@extends('blog/main')
+@extends('store/main')
 @section('content')
     @foreach($posts as $post)
         <div class="post-preview">
-            <a href="post.html">
+            <a href="/post/{{$post->id}}">
                 <h2 class="post-title">{{$post->title}}</h2>
                 <h3 class="post-subtitle">{{$post->content}}</h3>
             </a>

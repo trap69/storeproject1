@@ -2,6 +2,7 @@
 <html lang="en">
 @include('blog/_partials/head')
 <body>
+@include('blog/_partials/header')
 <!-- Navigation-->
 @include('blog/_partials/nav')
 <!-- Page Header-->

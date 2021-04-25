@@ -2,8 +2,10 @@
 <html lang="en">
 @include('store/_partials/head')
 <body>
-
+<!-- Navigation-->
+@include('store/_partials/navnew')
 <!-- Page Header-->
+@include('store/_partials/header')
 
 @section('content')
     @foreach($posts as $post)
@@ -29,7 +31,11 @@
         </div>
     </div>
 
-
+    <div class="comments">
+        @foreach($post->comments as $comment)
+            <li>{{$comment}}</li>
+        @endforeach
+    </div>
 @endsection
 @include('store/_partials/footer')
 <!-- Bootstrap core JS-->

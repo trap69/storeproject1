@@ -13,15 +13,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'BlogController@index');
-Route::get('/post/{post}','BlogController@show');
-Route::get('/add-post','BlogController@addPost');
-Route::post('/store', 'BlogController@store');
-Route::get('/categoryPage','BlogController@category');
-Route::get('/update/{post}','BlogController@update');
-Route::patch('/storeupdate/{post}','BlogController@storeUpdate');
+Route::get('/', 'StoreController@index');
+Route::get('/post/{post}','StoreController@show');
+Route::get('/add-post','StoreController@addPost');
+Route::post('/store', 'StoreController@store');
+Route::get('/category-page','StoreController@category');
+Route::get('/delete/{post}','StoreController@delete');
+Route::get('/update/{post}','StoreController@update');
+Route::patch('/storeupdate/{post}','StoreController@storeUpdate');
 Route::post('/post/{post}/comment','CommentController@addComment');
-
+Route::get('/table','StoreController@table');
 
 Auth::routes();
 

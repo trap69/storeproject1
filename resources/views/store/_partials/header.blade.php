@@ -1,5 +1,5 @@
-<header class="masthead" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/76.jpg');
-            height: 100vh">
+<header class="masthead" style="background-image: url('');
+            >
     <div class="overlay"></div>
     <div class="container">
         <div class="row">

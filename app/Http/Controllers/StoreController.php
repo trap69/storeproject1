@@ -5,26 +5,35 @@ use App\Models\Post;
 use File;
 use Illuminate\Http\Request;
 
-class BlogController extends Controller
+class StoreController extends Controller
 {
+
     public function __construct()
     {
         $this->middleware('auth', ['except'=>['index']]);
     }
     public function index(){
         $posts = Post::all();
-        return view('blog.pages.home', compact('posts'));
+        return view('store.pages.home', compact('posts'));
+    }
+    public function table(){
+        return view('store.pages.table');
+    }
+    public function category(){
+        return view('store.pages.categoryPage');
     }
     public function addPost(){
-        return view('blog.pages.addPost');
+        return view('store.pages.addPost');
     }
-
+    public function show(){
+        return view('store.pages.showPost');
+    }
     public function store(Request $request){
         $validatedData = $request->validate([
             'title' => 'required|unique:posts|max:255',
             'content' => 'required',
             'category' => 'required',
-            'img' => 'mimes:jpeg, jpg, png |required|max:10000'
+            'img' => 'mimes:mimes:jpeg,png,jpg,gif,svg |max:10000'
         ]);
         $path = $request->file('img')->store('public/images');
         $filename = str_replace('public/',"",$path);
@@ -47,10 +56,10 @@ class BlogController extends Controller
     }
     public function update(Post $post){
 
-        return view ('blog.pages.update-post',compact('post'));
+        return view ('store.pages.update-post',compact('post'));
     }
 
-    public function storeUpdate(Post $post){
+    public function storeUpdate(Request $request ,Post $post){
         if($request->file()){
             File::delete(storage_path('app/public'.$post->path));
             $path = $request->file('img')->store('public/images');
@@ -62,3 +71,5 @@ class BlogController extends Controller
         return redirect('/');
     }
 }
+// $category = Category::where()->get();
+//

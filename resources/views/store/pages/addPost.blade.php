@@ -1,8 +1,8 @@
-@extends('blog/main')
+@extends('store/main')
 
 @section('content')
     <div class="row">
-        @include('blog/_partials/errors')
+        @include('store/_partials/errors')
         <div class="col-md-12">
             <br/>
             <h3 align="center">Add data</h3>
