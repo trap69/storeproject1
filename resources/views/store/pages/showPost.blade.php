@@ -7,7 +7,7 @@
 
 @section('content')
     @foreach($posts as $post)
-    @endforeach
+
     <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
             <h2>{{$post->title}}</h2>

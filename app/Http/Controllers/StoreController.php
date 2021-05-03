@@ -26,7 +26,15 @@ class StoreController extends Controller
         return view('store.pages.addPost');
     }
     public function show(){
-        return view('store.pages.showPost');
+
+        $posts = Post::all();
+        foreach($posts as $post){
+            return $post->id;
+        }
+
+        return view('store.pages.showPost', compact('posts'));
+
+
     }
     public function store(Request $request){
         $validatedData = $request->validate([

@@ -10,61 +10,29 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46ef90c4-c8bd-4c3d-bbdf-d246775edcf9" name="Default Changelist" comment="zp-blog pirmas comitas">
-      <change afterPath="$PROJECT_DIR$/nauja/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nauja/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nauja/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nauja/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nauja/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nauja/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nauja/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nauja/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nauja/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nauja/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nauja/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nauja/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nauja/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nauja/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nauja/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nauja/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nauja/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nauja/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nauja/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nauja/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/styletrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/store/_partials/navnew.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/store/pages/showpostz.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/store/pages/table.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="46ef90c4-c8bd-4c3d-bbdf-d246775edcf9" name="Default Changelist" comment="Store remake v3">
+      <change afterPath="$PROJECT_DIR$/public/assets/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/about-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/contact-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/home-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/post-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/post-sample-image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/mail/contact_me.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/mail/contact_me.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/mail/jqBootstrapValidation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/store/pages/showPostyz.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BlogController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/StoreController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/asset/dist/assets/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/resources/asset/dist/assets/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/asset/dist/assets/img/about-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/asset/dist/assets/img/about-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/asset/dist/assets/img/contact-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/asset/dist/assets/img/contact-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/asset/dist/assets/img/home-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/asset/dist/assets/img/home-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/asset/dist/assets/img/post-sample-image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/asset/dist/assets/img/post-sample-image.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/asset/dist/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/asset/dist/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/blog/_partials/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog/_partials/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/blog/_partials/nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog/_partials/nav.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/blog/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog/main.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/blog/pages/addPost.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog/pages/addPost.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/store/_partials/head.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/store/_partials/head.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/store/_partials/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/store/_partials/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/store/_partials/nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/store/_partials/nav.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/StoreController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/StoreController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/confirm.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/confirm.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/store/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/store/main.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/store/pages/addPost.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/store/pages/addPost.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/store/pages/categoryPage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/store/pages/categoryPage.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/store/pages/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/store/pages/home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/store/pages/showPost.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/store/pages/showPost.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/store/pages/updatePost.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/store/pages/updatePost.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/store/pages/table.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/store/pages/table.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,13 +165,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/asset/dist" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Arnoldas\Desktop\zp-blog\store\public" />
       <recent name="C:\Users\Arnoldas\Desktop\zp-blog\store\resources\asset\dist" />
       <recent name="C:\Users\Arnoldas\Desktop\zp-blog\store\nauja" />
       <recent name="C:\Users\Arnoldas\Desktop\zp-blog\store\storage\app\public\images" />
@@ -244,7 +213,11 @@
       <workItem from="1619267703037" duration="406000" />
       <workItem from="1619268128463" duration="23346000" />
       <workItem from="1619301216925" duration="6743000" />
-      <workItem from="1619361302722" duration="9277000" />
+      <workItem from="1619361302722" duration="9694000" />
+      <workItem from="1619382003169" duration="10682000" />
+      <workItem from="1619600727250" duration="15296000" />
+      <workItem from="1619678450179" duration="20000" />
+      <workItem from="1620022724204" duration="1423000" />
     </task>
     <task id="LOCAL-00001" summary="zp-blog pirmas comitas">
       <created>1618822857926</created>
@@ -253,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618822857926</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Store remake v3">
+      <created>1619381714693</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1619381714693</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,13 +253,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="zp-blog pirmas comitas" />
-    <option name="LAST_COMMIT_MESSAGE" value="zp-blog pirmas comitas" />
+    <MESSAGE value="Store remake v3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Store remake v3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1618849459488">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1618849459488" />
+    <state x="714" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1619601644279">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="714" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1619601644279" />
     <state x="597" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1619304084422">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -300,14 +285,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1619272515590" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1619381753216">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1619381753216" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1618849472588">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1618849472588" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1619109417910">
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1620023178320">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1619109417910" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1620023178320" />
     <state x="623" y="225" width="672" height="160" key="search.everywhere.popup" timestamp="1619098777659">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -326,6 +315,11 @@
           <url>file://$PROJECT_DIR$/routes/web.php</url>
           <line>30</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/routes/web.php</url>
+          <line>15</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -17,10 +17,10 @@
                 <div class="form-group">
                     <select name="category" class="form-select" >
                         <option selected aria-label="Disabled select" disabled>Pasirinkite kategorija</option>
-                        <option value="1">SPICY</option>
-                        <option value="2">Dublis</option>
-                        <option value="3">Tretus</option>
-                        <option value="4">Keturi</option>
+                        <option value="chill">SPICY</option>
+                        <option value="grill">Dublis</option>
+                        <option value="vanila">Tretus</option>
+                        <option value="kebab">kebobas</option>
                     </select></div>
                 <div class="form-group custom-file">
                     <input type="file" class="custom-file-input text-black" name="img" id="path">

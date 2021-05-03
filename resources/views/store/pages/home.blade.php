@@ -4,8 +4,9 @@
         <div class="post-preview">
             <a href="/post/{{$post->id}}">
                 <h2 class="post-title">{{$post->title}}</h2>
-                <h3 class="post-subtitle">{{$post->content}}</h3>
             </a>
+                <h3 class="post-subtitle">{{$post->content}}</h3>
+
             <div>
                 <img src="{{asset($post->path)}}">
             </div>
